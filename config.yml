@@ -1,12 +1,15 @@
 baseURL: 'https://jpy794.github.io'
 homepage: 'https://jpy794.github.io'
-defaultContentLanguage: 'zh'
+defaultContentLanguage: 'en'
 theme: hugo-theme-ladder
 title: jpy794
 params:
+  brand: HOME
+  author: jpy794
+  info: Done is better than perfect.
   options:
     showDarkMode: true
-    enableMultiLang: false
+    enableMultiLang: true
   darkModeTheme: data-dark-mode
   math: true
   analytics:
@@ -19,10 +22,8 @@ params:
 languages:
   zh:
     languageName: 中
-    brand: HOME
-    author: jpy794
+    contentDir: content/zh
     authorDescription: CS在读划水人
-    info: Done is better than perfect.
     menu:
       main:
         - name: 文章
@@ -32,6 +33,21 @@ languages:
           url: /tags
           weight: 2
         - name: 历史文章
+          url: /archives
+          weight: 3
+  en:
+    languageName: EN 
+    contentDir: content/en
+    authorDescription: A computer science undergraduate student.
+    menu:
+      main:
+        - name: Blog
+          url: /blog
+          weight: 1
+        - name: Tags
+          url: /tags
+          weight: 2
+        - name: Archives
           url: /archives
           weight: 3
 taxonomies:
