@@ -2,8 +2,8 @@
 title: "Getting Started - GSoC '23"
 date: 2023-06-02T17:43:42+08:00
 draft: false
-tags: []
-series: []
+tags: [gsoc]
+series: [gsoc]
 featured: true
 ---
 
