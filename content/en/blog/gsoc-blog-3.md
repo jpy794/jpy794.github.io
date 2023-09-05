@@ -2,8 +2,8 @@
 title: "Run Boot2container on RPi - GSoC '23"
 date: 2023-09-03T16:23:29+08:00
 draft: false
-tags: []
-series: []
+tags: [gsoc]
+series: [gsoc]
 featured: true
 ---
 
