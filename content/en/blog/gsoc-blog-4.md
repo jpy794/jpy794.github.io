@@ -2,8 +2,8 @@
 title: "Final Blog Post - GSoC '23"
 date: 2023-09-03T16:23:29+08:00
 draft: false
-tags: []
-series: []
+tags: [gsoc]
+series: [gsoc]
 featured: true
 ---
 
@@ -30,7 +30,7 @@ This script also requires kernel and initramfs to be placed in the same director
 ``` shell
 #!ipxe
 
-kernel /files/linux-arm64-6.5.1 initrd=b2c b2c.run="-ti registry.freedesktop.org/mupuf/valve-infra/valve-infra-container:aarch64" b2c.ntp_peer=auto b2c.cache_device=/dev/mmcblk0p2
+kernel /files/linux-arm64-6.5.1 initrd=b2c b2c.run="-ti registry.freedesktop.org/mupuf/valve-infra/valve-infra-container:latest" b2c.ntp_peer=auto b2c.cache_device=/dev/mmcblk0p2
 initrd --name b2c /files/initramfs.linux_arm64.cpio.xz
 boot
 ```
